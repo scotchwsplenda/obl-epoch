@@ -3,7 +3,6 @@ from flask import Flask
 import time 
 
 app = Flask(__name__)
-ts = time.time()
 
 @app.route('/')
 def whatever():

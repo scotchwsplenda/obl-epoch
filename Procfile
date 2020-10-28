@@ -1,1 +1,1 @@
-web:gunicorn epoch:app
+web gunicorn epoch:app
